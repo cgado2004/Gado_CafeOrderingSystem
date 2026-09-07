@@ -98,7 +98,6 @@ CafeOrderingSystem/
 ├── README.md
 ├── docs/
 │   ├── 02-logic-explanation.md  ← submission requirement #5
-│   └── screenshots/             ← put your screenshots here
 └── src/CafeOrderingSystem/
     ├── Program.cs               entry point + message loop
     ├── Forms/MainForm.cs        UI, validation, the 11 steps
@@ -116,42 +115,7 @@ verified without clicking anything.
 
 ---
 
-## ⚠️ Two things to confirm with your instructor
 
-Both are genuinely ambiguous in the brief and **both change the total**.
-
-### 1. How do the discounts stack?
-
-Subtotal ₱1,000 with a senior citizen:
-
-- **Sequential** *(implemented)* — 10% off → ₱900, then 20% off that → **₱720**
-- **Additive** — flat 30% off → **₱700**
-
-₱20 apart. Sequential is used because "**additional** 20%" implies it applies
-on top of an already-discounted amount, matching Philippine retail practice.
-Switch with one line: `_calculator.UseSequentialDiscounts = false;`
-
-### 2. Is free delivery judged on the subtotal or the discounted total?
-
-Implemented on the **subtotal** — "if the order reaches ₱1,000" most naturally
-means order value before discounts.
-
-Full reasoning in [`docs/02-logic-explanation.md`](docs/02-logic-explanation.md).
-
----
-
-## Submission checklist
-
-- [x] Visual Studio project / source code
-- [x] Working application
-- [x] Logic explanation → `docs/02-logic-explanation.md`
-- [ ] Push to GitHub *(keep it **private** until the module ends)*
-- [ ] Screenshot of the completed interface
-- [ ] Screenshot of a successful transaction + receipt
-
-Use **Win + Shift + S** and save into `docs/screenshots/`.
-
----
 
 ## Notable techniques
 
