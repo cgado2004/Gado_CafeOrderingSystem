@@ -274,21 +274,3 @@ customer-friendlier reading.
 | Free delivery (at/above) | Subtotal ₱1,090 | Free | ✅ ₱981.00 |
 | Senior + bulk | Subtotal ₱1,000 | Sequential → ₱720 | ✅ ₱720.00 |
 | Everything | Senior + delivery, ₱1,000 | ₱720, free delivery | ✅ ₱720.00 |
-
----
-
-## 8. Screenshots to capture
-
-Submission requirements #3 and #4:
-
-1. **Completed interface** — the app on startup, nothing selected yet
-2. **Successful transaction** — 3 Burgers + 2 Iced Teas, ₱500 payment, receipt
-   showing ₱335 total and ₱165 change (matches the brief exactly)
-
-Worth adding to show validation working:
-
-3. Error dialog with no food selected
-4. "Insufficient payment" dialog
-5. A senior + delivery order with both discounts on the receipt
-
-Use **Win + Shift + S** (Snipping Tool) and save into `docs/screenshots/`.
